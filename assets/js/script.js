@@ -411,7 +411,7 @@ const artworks = [
         title: "Babala may Buaya",
         category: "Literary Arts",
         description: "The acrostic poem uses the image of buayas (crocodiles) as a metaphor to reveal the hidden danger of corrupt officials in positions of power. A buaya symbolizes someone who pretends to be calm or harmless but strikes when there's something to gain, just like a crocodile waits silently before attacking. By comparing leaders to predators, the poem shows how the nation's resources are exploited while the country suffer.",
-        artist: "Von Justin Estayani",
+        artist: "Gideon Moses Isidro",
         medium: "Digital Text",
         category: "literature",
         year: "2025",
@@ -1602,7 +1602,7 @@ function renderComments(index) {
         meta.appendChild(u); meta.appendChild(time);
 
         const txt = document.createElement('div'); txt.className = 'comment-text';
-        txt.textContent = 'Walang komento pa â€“ ikaw muna ang mag-iwan.';
+        txt.textContent = 'No comments yet - you go ahead and leave one first.';
 
         b.appendChild(meta); b.appendChild(txt);
         placeholder.appendChild(b);
